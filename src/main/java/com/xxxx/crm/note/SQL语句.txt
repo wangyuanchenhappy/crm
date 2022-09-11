@@ -1,0 +1,8 @@
+<foreach    item="" collection="" separator="">
+    item集合中每一个元素进行迭代时的别名，
+    separator在每次进行迭代之间以什么符号作为分隔符，
+    collection:主要有一下3种情况：
+               1.  如果传入的是单参数且参数类型是一个List的时候，collection属性值为list
+               2.  如果传入的是单参数且参数类型是一个array数组的时候，collection的属性值为array
+               3.  如果传入的参数是多个的时候，我们就需要把它们封装成一个Map了
+</foreach>
